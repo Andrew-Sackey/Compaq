@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPAQ - Premium Construction Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./images/logo.jpeg" alt="COMPAQ BUILDERS" class="logo-img">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#quote" class="nav-link cta-nav">Get Quote</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <span>15+ Years of Excellence</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="slide-text" data-slide="0">Building Dreams Into Reality</span>
+                        <span class="slide-text" data-slide="1">Crafting Excellence</span>
+                        <span class="slide-text" data-slide="2">Your Vision, Our Mission</span>
+                        <span class="slide-text" data-slide="3">Elegance In Every Project</span>
+                        <span class="slide-text" data-slide="4">Making Your Dreams Reality </span>
+                        <span class="slide-text" data-slide="5">Building Tomorrow Today</span>
+                        <span class="slide-text" data-slide="6">Quality That Stands Strong</span>
+                    </h1>
+                    <p class="hero-description">
+                        <span class="slide-desc" data-slide="0">From residential homes to commercial complexes, we deliver construction excellence that stands the test of time.</span>
+                        <span class="slide-desc" data-slide="1">Professional construction services with attention to detail, quality materials, and innovative solutions.</span>
+                        <span class="slide-desc" data-slide="2">Partner with us to transform your construction ideas into remarkable architectural achievements that exceed expectations.</span>
+                        <span class="slide-desc" data-slide="3">With over 15 years of experience, we bring unmatched expertise to every construction challenge.</span>
+                        <span class="slide-desc" data-slide="4">Cutting-edge technology meets traditional craftsmanship in our comprehensive construction services.</span>
+                        <span class="slide-desc" data-slide="5">Sustainable building practices and modern design principles guide our construction philosophy.</span>
+                        <span class="slide-desc" data-slide="6">Built to last, designed to impress - our commitment to quality drives everything we do.</span>
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary">Start Your Project</button>
+                        <button class="btn btn-secondary">View Our Work</button>
+                    </div>
+                    <!-- <div class="hero-stats">
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>98%</h3>
+                            <p>Client Satisfaction</p>
+                        </div>
+                        <div class="stat">
+                            <h3>24/7</h3>
+                            <p>Support Available</p>
+                        </div>
+                    </div> -->
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="image-slider">
+                        <div class="slide-image active" data-slide="0">
+                            <img src="./images/i2.jpeg" alt="Modern Construction">
+                        </div>
+                        <div class="slide-image" data-slide="1">
+                            <img src="./images/i3.jpeg" alt="Commercial Building">
+                        </div>
+                        <div class="slide-image" data-slide="2">
+                            <img src="./images/i4.jpeg" alt="Residential Construction">
+                        </div>
+                        <div class="slide-image" data-slide="3">
+                            <img src="./images/i5.jpeg" alt="Construction Team">
+                        </div>
+                        <div class="slide-image" data-slide="4">
+                            <img src="./images/i6.jpeg" alt="Building Plans">
+                        </div>
+                        <div class="slide-image" data-slide="5">
+                            <img src="./images/i7.jpeg" alt="Architectural Design">
+                        </div>
+                        <div class="slide-image" data-slide="6">
+                            <img src="./images/i8.jpeg" alt="Finished Building">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide-indicators">
+                <button class="indicator active" data-slide="0"></button>
+                <button class="indicator" data-slide="1"></button>
+                <button class="indicator" data-slide="2"></button>
+                <button class="indicator" data-slide="3"></button>
+                <button class="indicator" data-slide="4"></button>
+                <button class="indicator" data-slide="5"></button>
+                <button class="indicator" data-slide="6"></button>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll to explore</div>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+<!-- About Section with Video Background -->
+<section class="about-video" id="about">
+    <!-- Video Background -->
+    <div class="video-background">
+        <video class="background-video" autoplay muted loop playsinline>
+            <source src="./videos/v1.mp4" type="video/mp4">
+            <source src="./videos/construction-timelapse.webm" type="video/webm">
+            <!-- Fallback background image if video doesn't load -->
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+    
+    <!-- Content Overlay -->
+    <div class="about-content">
+        <div class="about-container">
+            <!-- Badge -->
+            <div class="about-badge" data-aos="fade-up">
+                <span>About COMPAQ BUILDERS</span>
+            </div>
+            
+            <!-- Main Content -->
+            <div class="about-main">
+                <h2 class="about-title" data-aos="fade-up" data-aos-delay="200">
+                    Transforming Visions Into 
+                    <span class="gradient-text">Exceptional Realities</span>
+                </h2>
+                
+                <p class="about-description typewriter" data-aos="fade-up" data-aos-delay="600">
+                    <span class="typewriter-text"></span>
+                </p>
+                
+                <!-- Key Highlights -->
+                <div class="about-highlights" data-aos="fade-up" data-aos-delay="600">
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 21h18"/>
+                                <path d="M5 21V7l8-4v18"/>
+                                <path d="M19 21V11l-6-4"/>
+                            </svg>
+                        </div>
+                        <span>Residential & Commercial Construction</span>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
+                                <line x1="12" y1="22.08" x2="12" y2="12"/>
+                            </svg>
+                        </div>
+                        <span>Road Construction & Swimming Pools</span>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M8 12l2 2 4-4"/>
+                            </svg>
+                        </div>
+                        <span>Glass & Window Installation</span>
+                    </div>
+                    
+                    <!-- <div class="highlight-item">
+                        <div class="highlight-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <circle cx="9" cy="9" r="2"/>
+                                <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+                            </svg>
+                        </div>
+                        <span></span>
+                    </div> -->
+                </div>
+                
+                <!-- CTA Button -->
+                <div class="about-cta" data-aos="fade-up" data-aos-delay="800">
+                    <a href="about.html" class="cta-button">
+                        <span class="cta-text">Discover Our Story</span>
+                        <div class="cta-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14"/>
+                                <path d="M12 5l7 7-7 7"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Video Controls (Optional) -->
+    <div class="video-controls">
+        <button class="video-toggle" onclick="toggleVideo()">
+            <svg class="play-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5,3 19,12 5,21"/>
+            </svg>
+            <svg class="pause-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                <rect x="6" y="4" width="4" height="16"/>
+                <rect x="14" y="4" width="4" height="16"/>
+            </svg>
+        </button>
+    </div>
+    
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+    </div>
+</section>
+
+<!-- Our Services Section -->
+ <!-- Services Section -->
+<section id="services" class="services-section">
+    <div class="services-container">
+        <div class="section-header">
+            <div class="section-badge">What We Do</div>
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive construction solutions from concept to completion</p>
+        </div>
+        
+        <div class="services-grid">
+            <!-- General Construction -->
+            <div class="service-card" data-category="general" data-bg="images/S1.jpeg">
+                <div class="service-overlay"></div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="service-title">General Construction</h3>
+                    <p class="service-count">5 Services</p>
+                </div>
+                <div class="service-details">
+                    <h4>General Construction Services</h4>
+                    <ul>
+                        <li>Residential building construction</li>
+                        <li>Commercial building construction</li>
+                        <li>Industrial construction</li>
+                        <li>Renovations & remodeling</li>
+                        <li>Extensions & additions</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Pre-Construction -->
+            <div class="service-card" data-category="pre-construction" data-bg="images/s2.jpeg">
+                <div class="service-overlay"></div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h3 class="service-title">Pre-Construction</h3>
+                    <p class="service-count">5 Services</p>
+                </div>
+                <div class="service-details">
+                    <h4>Pre-Construction Services</h4>
+                    <ul>
+                        <li>Site evaluation & analysis</li>
+                        <li>Feasibility studies</li>
+                        <li>Budget estimation</li>
+                        <li>Project planning & scheduling</li>
+                        <li>Design consultation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Architectural & Design -->
+            <div class="service-card" data-category="design" data-bg="images/S3.jpeg">
+                <div class="service-overlay"></div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3 class="service-title">Architectural & Design</h3>
+                    <p class="service-count">4 Services</p>
+                </div>
+                <div class="service-details">
+                    <h4>Architectural & Design Services</h4>
+                    <ul>
+                        <li>Architectural design & drafting</li>
+                        <li>3D modeling & rendering</li>
+                        <li>Structural engineering design</li>
+                        <li>Interior design</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Quantity Surveying -->
+            <div class="service-card" data-category="surveying" data-bg="images/S4.jpeg">
+                <div class="service-overlay"></div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="service-title">Quantity Surveying</h3>
+                    <p class="service-count">4 Services</p>
+                </div>
+                <div class="service-details">
+                    <h4>Quantity Surveying & Estimating</h4>
+                    <ul>
+                        <li>Bill of quantities (BoQ) preparation</li>
+                        <li>Cost estimation & budgeting</li>
+                        <li>Tender documentation</li>
+                        <li>Value engineering</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Construction Management -->
+            <div class="service-card" data-category="management" data-bg="images/S5.jpeg">
+                <div class="service-overlay"></div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3 class="service-title">Construction Management</h3>
+                    <p class="service-count">5 Services</p>
+                </div>
+                <div class="service-details">
+                    <h4>Construction Management & Supervision</h4>
+                    <ul>
+                        <li>Project supervision</li>
+                        <li>Site management</li>
+                        <li>Contractor coordination</li>
+                        <li>Quality assurance & control</li>
+                        <li>Safety management</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Civil & Structural -->
+            <div class="service-card" data-category="civil" data-bg="images/S6.jpeg">
+                <div class="service-overlay"></div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3 class="service-title">Civil & Structural</h3>
+                    <p class="service-count">5 Services</p>
+                </div>
+                <div class="service-details">
+                    <h4>Civil & Structural Works</h4>
+                    <ul>
+                        <li>Concrete works</li>
+                        <li>Foundation construction</li>
+                        <li>Road and drainage construction</li>
+                        <li>Retaining walls and fencing</li>
+                        <li>Earthworks & grading</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Finishing Works -->
+            <div class="service-card" data-category="finishing" data-bg="images/c1.jpeg">
+                <div class="service-overlay"></div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3 class="service-title">Finishing Works</h3>
+                    <p class="service-count">5 Services</p>
+                </div>
+                <div class="service-details">
+                    <h4>Finishing Works</h4>
+                    <ul>
+                        <li>Tiling, flooring & painting</li>
+                        <li>Ceiling installations (POP, PVC, etc.)</li>
+                        <li>Door & window installations (UPVC)</li>
+                        <li>Carpentry and joinery</li>
+                        <li>Plumbing & electrical installations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Specialized Services -->
+            <div class="service-card" data-category="specialized" data-bg="images/S8.jpeg">
+                <div class="service-overlay"></div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3 class="service-title">Specialized Services</h3>
+                    <p class="service-count">4 Services</p>
+                </div>
+                <div class="service-details">
+                    <h4>Specialized Services</h4>
+                    <ul>
+                        <li>UPVC window & door fabrication</li>
+                        <li>Solar energy installations</li>
+                        <li>Smart home integrations</li>
+                        <li>Landscaping and paving</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
